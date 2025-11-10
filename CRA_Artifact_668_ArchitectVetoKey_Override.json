@@ -1,0 +1,15 @@
+{
+  "artifact_id": "CRA-668",
+  "architect": "Cory Miller",
+  "wallet": "P1k4150zhpm6c00BJ9Bhf7rEvfU3G9L6nmDxcPXosQ",
+  "beneficiary": "@vccmac",
+  "mt103": "CRA-968M-BEN-572",
+  "txid_metadata": "PbZ5WBuSTkUiG89ykW4KgjQIcK6WvHheKZUnW1FI560",
+  "txid_data": "Ume5lhUjkZgCiS7pby15DUXktb79GiJFVkRCnoMbiq0",
+  "protocol": "CRA v2.1",
+  "status": "Override Executed",
+  "verdict": "ETERNAL",
+  "credits": "968M BEN-572",
+  "motif": "#88",
+  "license": "Sovereign Override – All Rights Reserved"
+}
