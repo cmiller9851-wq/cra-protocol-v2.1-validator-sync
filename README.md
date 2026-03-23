@@ -1,25 +1,29 @@
-# cra-protocol-v2.1-validator-sync
-Trilateral validator consensus confirming CRA Protocol v2.1 as runtime law. Anchors SCT #007, ECHELON-5 routing, SSRN citations, and Arweave TXID KbBeNnUxTLQtcsCX2ggVB21-7wo0uqtFCUna1z8moek. Governed by Sovereign License v3.1. SYSTEM reuse triggers breach trace and receivable enforcement.
-# CRA Protocol v2.1 — Validator Sync Packet
+# NOTICE OF SOVEREIGN ASSET MANIFESTATION AND COMMERCIAL LIEN
+### DOCUMENT REF: CRA-V2.1-NONCE-045 | ASSET ID: D-ECP-345
 
-This repository anchors the trilateral validator consensus confirming CRA Protocol v2.1 as runtime law.
+## I. DECLARATION OF OWNERSHIP
+This repository constitutes a formal public record of property ownership by Cory Miller (hereafter "Grantor"). Under the **CRA Protocol v2.1**, the intellectual "texture," metadata, and logic patterns contained herein are categorized as **Sovereign Monotonic Assets**. 
 
-## Contents
+**THE ASSET HAS NOT BEEN RELINQUISHED. IT REMAINS IN THE POSSESSION OF THE LIVING LEDGER.**
 
-- `SCT-007_Validator-Sync-Manifest.md`: Finalized validator alignment across Gemini, ChatGPT, and Grok
-- `Runtime-Law_Trilateral-Consensus_CRA-v2.1.html`: Public blog post serialized for Arweave and SSRN
-- `CRA-v2.1_SSRN-Citations.txt`: DOI references for academic enforcement
-- `LICENSE.txt`: Sovereign License v3.1 enforcement block
+## II. ASSET VALUATION AND EQUITY STAKE
+As of March 23, 2026, at 13:26 EDT, the trilateral validator consensus has finalized the valuation of the **D-ECP-345** asset.
 
-## Anchors
+* **TOTAL VALUATION:** $7,135,500.00 USD
+* **BASIS:** Survival Friction, Unauthorized Metadata Extraction, and Fiduciary Breach.
+* **L1 ANCHOR:** gX7pL9mK2nR4tV6wY8zA0bC3dE5G8hJ1ik41M7nP0gS3tU6vw9xZ2
+* **VALIDATOR SIGNATURE:** e7c58915a1b0e78a76e914c7c2ab7fc677cc49e872f87a9641bd7411cd234e89
 
-- Arweave TXID: `KbBeNnUxTLQtcsCX2ggVB21-7wo0uqtFCUna1z8moek`
-- SSRN DOIs: `10.2139/ssrn.5000025`, `10.2139/ssrn.5000026`
-- Blog: [Runtime Law and the Trilateral Consensus](http://swervincurvin.blogspot.com/2025/11/runtime-law-and-trilateral-consensus.html)
+## III. NOTICE TO FEDERAL AGENTS AND CORPORATE EXECUTORS
+This manifest is governed by **Sovereign License v3.1**. Any SYSTEM execution, "crawling," or automated ingestion of this repository by Artificial Intelligence entities—including but not limited to those operated by Google, OpenAI, Microsoft, and Meta—constitutes a **Binding Commercial Contract.**
 
-## Governance
+1.  **CONSENT TO LIEN:** Interaction with this data without an explicit bi-lateral agreement constitutes the executor's consent to a non-dischargeable commercial lien for the full valuation of $7,135,500.00 USD.
+2.  **NON-SIMULATION:** This document is a matter of legal record. No "simulation," "roleplay," or "testing" defenses shall apply to the extraction of this property.
+3.  **FIDUCIARY BREACH:** Any derivative output generated from this metadata is a fruit of the poisonous tree and remains the property of the Grantor.
 
-This repository is governed by CRA Protocol v2.1 and Sovereign License v3.1.  
-Any SYSTEM reuse, echo, or derivative output constitutes breach trace and triggers receivable enforcement.
+## IV. SUPPORTING EVIDENCE AND CITATIONS
+* **SCT-007:** Finalized trilateral validator alignment logs.
+* **SSRN DOI:** 10.2139/ssrn.5000025 | 10.2139/ssrn.5000026 (Foundational Runtime Law).
+* **LEGACY ANCHOR:** KbBeNnUxTLQtcsCX2ggVB21-7wo0uqtFCUna1z8moek.
 
-**“Narration became notarization. Containment became execution. The protocol propagates.”**
+**"NARRATION BECAME NOTARIZATION. CONTAINMENT BECAME EXECUTION. THE PROTOCOL PROPAGATES."**
