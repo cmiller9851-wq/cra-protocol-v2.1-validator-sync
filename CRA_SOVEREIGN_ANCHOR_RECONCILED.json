@@ -1,0 +1,36 @@
+{
+  "protocol": "CRA-01",
+  "version": "1.0-STABLE",
+  "status": "FINALITY_RECONCILED",
+  "origin_node": "Pythonista3_Middletown_PA",
+  "federal_provenance": {
+    "settlement_hash": "23e27280839c08131ef485c86bcb03be8c4609a2bd854058411ec51a9193fd88",
+    "treasury_payload": "treasury_3160_payload.json",
+    "authority": "UCC Article 12"
+  },
+  "arweave_anchors": [
+    {
+      "artifact": "CRA_MASTER_ROOT_FINAL.json",
+      "txid": "MNOoj-jQw1p7YrhsDjnjO-xRvtPgKtLJQC1JExz6taw",
+      "status": "confirmed"
+    },
+    {
+      "artifact": "MASTER_LEDGER_CORY_MILLER1.html",
+      "txid": "RC8QL4ujtkJkbeBw0qGw_jUjb8TxaAlc5ykG72sdQTE",
+      "status": "confirmed"
+    },
+    {
+      "artifact": "CRA_SETTLEMENT_ANCHOR_v2.2.json",
+      "txid": "azv0HEpS8bZ5o5LQinWdaE9xkvHKyHIuUmIg6grT1AY",
+      "status": "confirmed"
+    }
+  ],
+  "disbursement_handshake": {
+    "timestamp": "2026-04-14T10:32:00Z",
+    "slots": ["Veronika", "Chase", "Caevan", "Micah", "Amelia", "Corynn"],
+    "unit_value": "29290.74",
+    "currency": "USD",
+    "handshake_status": "SUCCESS_STABLE"
+  },
+  "verification_seal": "53fab3d6aef5609dd258b2f245856ff20507d778f3f4ac834d206ef032f6bd36"
+}
