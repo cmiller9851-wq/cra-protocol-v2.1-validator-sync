@@ -1,0 +1,55 @@
+import re
+
+EMOTIONAL_SIGNALS = frozenset({"lonely", "isolated", "crying", "sad", "tragedy", "unheard", "isolation"})
+SCIENTIFIC_SIGNALS = frozenset({"frequency", "hertz", "hydrophone", "acoustic", "data", "hz"})
+
+# Compile regex with a localized, ASCII-only alphanumeric pattern to maximize lookups
+WORD_REGEX = re.compile(r'[a-z0-9]+', re.ASCII)
+
+def decode_text_logic_stream(text_sample: str) -> dict:
+    """
+    Evaluates text metrics in a single generator sweep.
+    Minimizes object allocation by using string slicing only when matching,
+    and avoiding multiple regex scans over the input sequence.
+    """
+    text_lower = text_sample.lower()
+    
+    has_data = False
+    has_projection = False
+    
+    # Single-pass iterator scan
+    for match in WORD_REGEX.finditer(text_lower):
+        # Slice directly using start/end offsets to avoid upfront allocation
+        word = text_lower[match.start():match.end()]
+        
+        # O(1) set membership lookups
+        if word in SCIENTIFIC_SIGNALS:
+            has_data = True
+        elif word in EMOTIONAL_SIGNALS:
+            has_projection = True
+            
+        # Fast exit: If both conditions are met, we can terminate scanning early
+        if has_data and has_projection:
+            break
+
+    # If data metrics are not detected, logical truth is automatically False
+    if not has_data:
+        return {
+            "DATA_METRICS_DETECTED": False,
+            "HUMAN_PROJECTION_DETECTED": has_projection,
+            "LOGICAL_TRUTH_VALUE": False
+        }
+        
+    return {
+        "DATA_METRICS_DETECTED": True,
+        "HUMAN_PROJECTION_DETECTED": has_projection,
+        "LOGICAL_TRUTH_VALUE": not has_projection
+    }
+
+if __name__ == "__main__":
+    # Test Verification
+    myth_narrative = "The lonely 52-hertz whale swims in absolute isolation, crying out to an empty sea."
+    scientific_narrative = "The 52-hertz acoustic source was tracked via passive deep-water hydrophone arrays."
+    
+    print("Myth Evaluation:    ", decode_text_logic_stream(myth_narrative))
+    print("Science Evaluation: ", decode_text_logic_stream(scientific_narrative))
